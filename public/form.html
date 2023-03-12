@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Little Nightmares</title>
+    <link rel="icon" href="img/icon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="centered main-container">
+      <header class="site-header">
+        <div class="site-logo-title-subtitle">
+          <div class="site-logo-title">
+            <div class="site-logo">
+              <img class="logo" src="img/logo.png" alt="Site logo" />
+            </div>
+            <h1 class="title">The Story of Mono...</h1>
+          </div>
+          <p class="subtitle">Little Nightmares' world of charming horror</p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="page.html">Article</a></li>
+            <li><a href="typography.html">Typography</a></li>
+            <li><a href="form.html" class="current-page">Form</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="column3.html">Column3</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="centered">
+        <main>
+          <form>
+            <h2 class="section-header">Payment Form</h2>
+            <div>
+              <label for="fullname">full name</label>
+              <input
+                type="text"
+                id="fullname"
+                name="payment-details"
+                placeholder="Enter name on the  card"
+                maxlength="30"
+              />
+            </div>
+            <div class="card-type-number">
+              <div>
+                <label for="card-type">card type</label>
+                <select id="card-type" name="payment-details">
+                  <option value="MasterCard">MasterCard</option>
+                  <option value="Visa">Visa</option>
+                  <option value="American Express">American Express</option>
+                </select>
+              </div>
+              <div>
+                <label for="card-number">card number</label>
+                <input
+                  type="text"
+                  id="card-number"
+                  name="payment-details"
+                  placeholder="4444 4444 4444 4444"
+                />
+              </div>
+            </div>
+            <div class="exp-date-cvc">
+              <div class="exp-date">
+                <div>
+                  <label for="exp-month">exp. month</label>
+                  <input type="number" id="exp-month" />
+                </div>
+                <div>
+                  <label for="exp-year">exp. year</label>
+                  <input type="number" id="exp-year" />
+                </div>
+              </div>
+              <div>
+                <label for="cvc">security code</label>
+                <input
+                  type="text"
+                  id="cvc"
+                  name="payment-details"
+                  minlength="3"
+                  maxlength="3"
+                  placeholder="Enter 3 digits"
+                />
+              </div>
+            </div>
+
+            <div>
+              <label for="amount">Amount</label>
+              <input
+                type="number"
+                id="amount"
+                name="payment-details"
+                placeholder="Amount to withdraw"
+              />
+            </div>
+            <div>
+              <input class="submit" type="submit" value="Submit" />
+            </div>
+          </form>
+        </main>
+      </div>
+      <footer class="site-footer">
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+              >MDN HTML</a
+            >
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+              >MDN CSS</a
+            >
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a target="_blank" href="https://validator.w3.org"
+              >The HTML validator</a
+            >
+          </li>
+          <li>
+            <a target="_blank" href="https://jigsaw.w3.org/css-validator"
+              >The CSS validator</a
+            >
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a target="_blank" href="https://html.spec.whatwg.org"
+              >W3C HTML standard</a
+            >
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.w3.org/standards/techs/css.html"
+              >W3C CSS standard</a
+            >
+          </li>
+        </ul>
+      </footer>
+      <img
+        class="absolute-img"
+        src="img/mono-six-catch.png"
+        alt="Mono and Six"
+      />
+    </div>
+  </body>
+</html>

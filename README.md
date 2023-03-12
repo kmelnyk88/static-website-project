@@ -1,2 +1,5 @@
 # static-website-project
-Part of the web development course (working with pure HTML and CSS)
+Part of the university web development course.
+Basic exercising in HTML and CSS.
+
+

@@ -1,0 +1,23 @@
+{
+  "name": "static-website-project",
+  "version": "1.0.0",
+  "description": "Part of the web development course (working with pure HTML and CSS)",
+  "main": "index.js",
+  "scripts": {
+    "http-server": "npx http-server -p 9001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmelnyk88/static-website-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmelnyk88/static-website-project/issues"
+  },
+  "homepage": "https://github.com/kmelnyk88/static-website-project#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
